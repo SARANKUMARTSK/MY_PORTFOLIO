@@ -309,6 +309,7 @@
   background-color: var(--bg-blue);
   border-radius: 20px;
   color: #FFFFFF;
+  margin: 10px;
 }
 .left-contact-container>a{
   text-decoration: none !important;
