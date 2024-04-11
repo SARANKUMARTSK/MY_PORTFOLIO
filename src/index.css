@@ -446,7 +446,7 @@
   border-radius: 15px;
   box-shadow: 0px 0px 5px var(--bg-blue);
   background-color: var(--hover-font);
-  min-width: 330px;
+  min-width: 300px;
 }
 .about-content-top>div>i>svg{
   text-align: center;
