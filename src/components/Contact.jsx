@@ -15,7 +15,12 @@ function Contact({ theme }) {
     try {
       const data = { name, email, message };
       const res = await axios.post(`${API_URL}/sendMail`, data);
+
+      setName("");
+      setEmail('');
+      setMessage('');
       toast.success('Message Sent Successfully');
+      
     } catch (error) {
       console.log(error);
       toast.error("Please Check All Fields")
