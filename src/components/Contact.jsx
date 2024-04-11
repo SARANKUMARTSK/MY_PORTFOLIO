@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTurnDown, faEnvelope, faPhone,faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { API_URL } from '../App';
 import axios from 'axios';
+import toast from 'react-hot-toast'
 
 function Contact({ theme }) {
   const [name, setName] = useState('');
@@ -14,10 +15,11 @@ function Contact({ theme }) {
     try {
       const data = { name, email, message };
       const res = await axios.post(`${API_URL}/sendMail`, data);
-      alert('Message Sent Successfully');
+      toast.success('Message Sent Successfully');
     } catch (error) {
       console.log(error);
-      alert('Failed to send message');
+      toast.error("Please Check All Fields")
+
     }
   };
 
