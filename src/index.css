@@ -467,3 +467,20 @@
   }
 }
 
+@media screen and (max-width:600px) {
+  .about-page{
+    padding-top: 20px;
+  }
+  .skill-page{
+    padding-top: 10px;
+  }
+  .project-page{
+    padding-top: 30px;
+  }
+  .project-container{
+    margin-top:20px ;
+  }
+  .contact-page{
+    padding-top: 20px;
+  }
+}
