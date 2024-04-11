@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 import Qualification from './components/Footer'
 import Contact from './components/Contact'
 import About from './components/About'
-export const API_URL = "http://localhost:3000"
+export const API_URL = "https://backend-t2h6.onrender.com"
 
 function App() {
   const [theme, setTheme] = useState('false')
