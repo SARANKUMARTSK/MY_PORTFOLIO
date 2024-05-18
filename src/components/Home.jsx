@@ -6,7 +6,7 @@ import { faGithub, faLinkedin  } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
 import {Link} from 'react-scroll';
-import myResume from "/src/Files/SARANKUMAR-FSD-RESUME.pdf"
+import myResume from "/src/Files/SARAN_FSD_RESUME.pdf.pdf"
 
 
 function Home({theme}) {
