@@ -16,8 +16,8 @@ function Home({theme}) {
         <div className="home-right-container">
               <img src={myImage} alt="" />
               <div className='home-icons'>
-                <a href="https://github.com/SARANKUMARTSK"><FontAwesomeIcon icon={faGithub} /></a>
-                <a href="https://www.linkedin.com/in/saran-kumar-17563a250/"><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href="https://github.com/SARANKUMARTSK" target='_blank'><FontAwesomeIcon icon={faGithub} /></a>
+                <a href="https://www.linkedin.com/in/saran-kumar-17563a250/"  target='_blank'><FontAwesomeIcon icon={faLinkedin} /></a>
               </div>
         </div>
 
@@ -41,7 +41,7 @@ function Home({theme}) {
            </div>
            <div className='button-container'>
               <button ><Link to='contact'  smooth={true} duration={800}>Contact Me   &nbsp;<FontAwesomeIcon icon={faEnvelope} /></Link></button>
-              <button><a  style={{textDecoration:"none" , color:"inherit"}} href={myResume}>Download Resume &nbsp; <FontAwesomeIcon icon={faFileArrowDown} /></a></button>
+              <button><a  style={{textDecoration:"none" , color:"inherit"}} href={myResume}  target='_blank'>Download Resume &nbsp; <FontAwesomeIcon icon={faFileArrowDown} /></a></button>
             </div>
         </div>
 

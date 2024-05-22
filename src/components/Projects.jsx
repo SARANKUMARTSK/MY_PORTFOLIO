@@ -54,8 +54,8 @@ function Projects() {
         <h3>{e.name}</h3>
         <p>{e.content}</p>
         <div className='button-container'>
-          <button><a href={e.gitHub}>GitHub <FontAwesomeIcon icon={faGithub} /></a></button>
-          <button><a href={e.view}>View <FontAwesomeIcon icon={faAnglesRight} /></a></button>
+          <button><a href={e.gitHub}  target='_blank'>GitHub <FontAwesomeIcon icon={faGithub} /></a></button>
+          <button><a href={e.view}  target='_blank'>View <FontAwesomeIcon icon={faAnglesRight} /></a></button>
         </div>
       </div>
     </div>
